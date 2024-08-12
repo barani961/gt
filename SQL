@@ -1,0 +1,14 @@
+SELECT*FROM employees;
+SELECT *FROM customers
+WHERE state IS NULL;
+
+UPDATE customers
+SET customerNumber=12
+WHERE city ="USA";
+USE classicmodels;
+INSERT INTO bb VALUES
+(1,"PONDY","2023-12-02"),(2,"villupuram","2023-04-08");
+SELECT *FROM bb;
+UPDATE bb
+SET timi=NULL
+WHERE timi="23-12-02";
